@@ -167,7 +167,7 @@ impl Default for Abieos {
         Abieos::new()
     }
 }
-
+unsafe impl Sync for Abieos {}
 impl Abieos {
     /// Create a new Abieos instance
     pub fn new() -> Abieos {

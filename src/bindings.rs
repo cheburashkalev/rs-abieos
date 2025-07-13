@@ -254,6 +254,8 @@ pub type uintmax_t = __uintmax_t;
 pub struct abieos_context_s {
     _unused: [u8; 0],
 }
+unsafe impl Sync for abieos_context_s {}
+unsafe impl Send for abieos_context_s {}
 pub type abieos_context = abieos_context_s;
 pub type abieos_bool = ::std::os::raw::c_int;
 extern "C" {
