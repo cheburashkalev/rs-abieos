@@ -1,11 +1,11 @@
 [package]
-name = "rs_abieos"
+name = "rs_abieos_gf"
 version = "0.1.5"
 edition = "2021"
 build = "build.rs"
-authors = ["Igor Lins e Silva"]
+authors = ["Igor Lins e Silva","Andrei Levchenko"]
 license = "MIT"
-repository = "https://github.com/eosrio/rs-abieos"
+repository = "https://github.com/cheburashkalev/rs-abieos"
 description = """
 A Rust wrapper library for Abieos, used for Antelope (former EOSIO) ABI serialization and deserialization.
 """
@@ -13,7 +13,7 @@ categories = ["encoding", "parsing"]
 keywords = ["eosio", "antelope", "abi", "serialization", "deserialization"]
 
 [[bin]]
-name = "rs_abieos"
+name = "rs_abieos_gf"
 path = "bin-src/main.rs"
 doc = false
 

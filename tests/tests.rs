@@ -1,6 +1,6 @@
 #[cfg(test)]
 mod tests {
-    use rs_abieos::Abieos;
+    use rs_abieos_gf::Abieos;
     use crate::samples::{BIN_ACTION_TRANSFER, EOSIO_TOKEN_HEX_ABI, EOSIO_TOKEN_U64, HEX_ACTION_TRANSFER};
 
     #[test]
